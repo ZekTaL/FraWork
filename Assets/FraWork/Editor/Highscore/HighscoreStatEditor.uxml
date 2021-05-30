@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+    
+    <engine:VisualElement name="highscoreStatVisualElement" class="highscoreStatEditor">
+        <engine:Box name="statNumberBox" class="statNumberBox">
+            <engine:Label text="1" name="statNumber" class="statNumber" />
+        </engine:Box>
+        <engine:Box name="statTitleBox" class="statTitle">
+            <engine:TextField name="statTitle" label="Stat Title"/>
+            <engine:Toggle name="isVisible" label="Show"/>
+            <editor:EnumField name="statTypeEnum" label="Stat Type" type="FraWork.Highscore.StatType, Assembly-CSharp" />
+            <engine:Label text="Parse Error" name="parseErrorLabel" class="parseErrorLabel" />
+        </engine:Box>
+    </engine:VisualElement>
+
+</engine:UXML>

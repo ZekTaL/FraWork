@@ -1,0 +1,73 @@
+.container {
+    background-color: #505050;
+    margin: 5, 10, 5, 0;
+    padding: 5;  
+    border-width: 3;
+    border-radius: 10;
+    border-color: #AAAAAA;
+}
+
+.boxContainer {
+    margin: 0, 10, 10, 10;
+    padding: 5;
+}
+
+.tablePreview {
+    background-color: #303030;
+    margin: 5, 5, 5, 5;
+    padding: 5;  
+    border-width: 3;
+    border-color: #AAAAAA;
+}
+
+.heading {
+    margin: 5, 0, 10;
+    font-size: 24;
+    color: black;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.heading2 {
+    margin: 15, 0, 10;
+    font-size: 18;
+    color: black;
+    -unity-font-style: bold-and-italic;
+    -unity-text-align: middle-center;
+}
+
+.labelHeader {
+    margin: 5, 0, 2, 0;
+    font-size: 14;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold-and-italic;
+}
+
+.buttonPreview {
+    margin: 20, auto ,0, auto;
+    width: 200;
+    height: 30;
+    background-color: black;
+    justify-content: center;
+}
+
+.previewStatTitles {
+    margin: 5, 10, 5, 10;
+    padding: 10;  
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.previewFirstRow {
+    margin: 5, 10, 2, 10;
+    padding: 5;  
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.previewSecondRow {
+    margin: 5, 10, 2, 10;
+    padding: 5;  
+    flex-direction: row;
+    justify-content: space-around;
+}

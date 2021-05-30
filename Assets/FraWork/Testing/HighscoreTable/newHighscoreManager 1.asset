@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f3df73a889cc647b7bfe8954713e71, type: 3}
+  m_Name: newHighscoreManager 1
+  m_EditorClassIdentifier: 
+  statTitles:
+  - statTitle: Stat Title 1
+    isVisible: 1
+    statID: 1
+    statType: 3
+    isBeingSorted: 0
+  - statTitle: Stat Title 2
+    isVisible: 1
+    statID: 2
+    statType: 2
+    isBeingSorted: 1
+  - statTitle: Stat Title 3
+    isVisible: 1
+    statID: 3
+    statType: 1
+    isBeingSorted: 0
+  - statTitle: Stat Title 4
+    isVisible: 1
+    statID: 4
+    statType: 1
+    isBeingSorted: 0
+  - statTitle: Stat Title 5
+    isVisible: 1
+    statID: 5
+    statType: 0
+    isBeingSorted: 0
+  backgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  titlesColor: {r: 0.8301887, g: 0, b: 0, a: 1}
+  titlesFontColor: {r: 1, g: 1, b: 1, a: 1}
+  firstRowColor: {r: 0, g: 0.17606758, b: 0.9056604, a: 1}
+  firstRowFontColor: {r: 1, g: 0, b: 0.007795334, a: 1}
+  secondRowColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+  secondRowFontColor: {r: 1, g: 0.85918254, b: 0, a: 1}

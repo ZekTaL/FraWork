@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+    <!-- Highscore Table -->
+    <engine:VisualElement name="highscoreTable" class="container">
+        <engine:Label text="Highscore Table" class="heading"/>
+        <editor:PropertyField name="backgroundColor" binding-path="backgroundColor" />
+        <engine:Label name="tableTitles" text="Titles" class="labelHeader" />
+        <editor:PropertyField name="titlesColor" binding-path="titlesColor" />
+        <editor:PropertyField name="titlesFontColor" binding-path="titlesFontColor" />
+        <engine:Label name="tableItems" text="Items" class="labelHeader" />
+        <editor:PropertyField name="firstRowColor" binding-path="firstRowColor" />
+        <editor:PropertyField name="firstRowFontColor" binding-path="firstRowFontColor" />
+        <editor:PropertyField name="secondRowColor" binding-path="secondRowColor" />
+        <editor:PropertyField name="secondRowFontColor" binding-path="secondRowFontColor" />
+
+        <engine:Button name="buttonPreview" class="buttonPreview" >
+            <engine:Label text="Show Table Preview" style=" -unity-text-align: middle-center"/>
+        </engine:Button>
+
+        <engine:VisualElement name="tablePreview" class="tablePreview">
+            <engine:Label text="Table Preview" class="heading2"/>
+            <engine:Box name="boxContainer" class="boxContainer" binding-path="backgroundColor">
+                <engine:Image name="previewStatTitles" class="previewStatTitles">
+                    <engine:Label name="previewLabelStatTitle1" text="StatTitle1" style="-unity-font-style: bold;"/>
+                    <engine:Label name="previewLabelStatTitle2"  text="StatTitle2" style="-unity-font-style: bold;"/>
+                    <engine:Label name="previewLabelStatTitle3" text="StatTitle3" style="-unity-font-style: bold;"/>
+                </engine:Image>
+                <engine:Image name="previewFirstRow" class="previewFirstRow">
+                    <engine:Label name="firstRowItem11" text="Item11"/>
+                    <engine:Label name="firstRowItem12" text="Item12"/>
+                    <engine:Label name="firstRowItem13" text="Item13"/>
+                </engine:Image>
+                <engine:Image name="previewSecondRow" class="previewSecondRow">
+                    <engine:Label name="secondRowItem21" text="Item21"/>
+                    <engine:Label name="secondRowItem22" text="Item22"/>
+                    <engine:Label name="secondRowItem23" text="Item23"/>
+                </engine:Image>
+            </engine:Box>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+    <!-- Stats -->
+    <engine:VisualElement class="container">
+        <engine:Label text="Stats" class="heading"/>
+
+        <engine:VisualElement name="statTitlesList"/> 
+    </engine:VisualElement>
+    
+</engine:UXML>
